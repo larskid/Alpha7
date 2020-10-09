@@ -1,5 +1,6 @@
 package no.larsgh.alpha7
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
@@ -33,7 +34,11 @@ class MainActivity : AppCompatActivity() {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
-            R.id.action_settings ->  true
+            R.id.action_settings -> {
+                var intent = Intent(this, SettingsActivity::class.java)
+                startActivity(intent)
+                true
+            }
             R.id.action_tema -> true
             R.id.action_bks -> true
             R.id.action_fkpk -> true
@@ -45,4 +50,5 @@ class MainActivity : AppCompatActivity() {
         Places.initialize(this, getString(R.string.googlemaps_api))
         googlemapsClient = Places.createClient(this)
     }
+
 }
