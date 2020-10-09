@@ -54,4 +54,5 @@
 
     <!-- Google API (Maps, Routes, Places) -->
     <string name="googlemaps_api">AIzaSyA-1ijfy1Q9w3-06FD-avUzGjsbVTd7GGU</string>
+    <string name="title_activity_tabbed">TabbedAct</string>
 </resources>

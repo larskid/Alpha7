@@ -1,5 +1,6 @@
 package no.larsgh.alpha7
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -13,6 +14,7 @@ import com.google.android.libraries.places.api.model.Place
 import com.google.android.libraries.places.api.model.TypeFilter
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment
 import com.google.android.libraries.places.widget.listener.PlaceSelectionListener
+import kotlinx.coroutines.Dispatchers.Main
 import java.util.*
 
 /**
@@ -20,7 +22,7 @@ import java.util.*
  */
 class HomeFragment : Fragment() {
 
-    var placeFields = Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.ADDRESS)
+    var placeFields = Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.ADDRESS, Place.Field.TYPES)
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
@@ -41,11 +43,11 @@ class HomeFragment : Fragment() {
         }
         val autocompleteFragment = childFragmentManager.findFragmentById(R.id.searchView) as AutocompleteSupportFragment
         autocompleteFragment.setPlaceFields(placeFields)
-        autocompleteFragment.setTypeFilter(TypeFilter.ESTABLISHMENT)
         autocompleteFragment.setCountry("NO")
         autocompleteFragment.setOnPlaceSelectedListener(object: PlaceSelectionListener {
             override fun onPlaceSelected(p0: Place) {
-                findNavController().navigate(R.id.action_homeFragment_to_resultFragment)
+                var intent = Intent(activity, TabbedAct::class.java)
+                startActivity(intent)
             }
             override fun onError(p0: Status) {
                 Toast.makeText(activity, ""+p0.statusMessage, Toast.LENGTH_SHORT).show()
