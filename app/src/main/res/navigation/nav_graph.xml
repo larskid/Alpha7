@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <activity
         android:id="@+id/resultFragment"
@@ -20,5 +23,9 @@
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" >
     </activity>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="no.larsgh.alpha7.SettingsActivity.SettingsFragment"
+        android:label="SettingsFragment" />
 
 </navigation>
