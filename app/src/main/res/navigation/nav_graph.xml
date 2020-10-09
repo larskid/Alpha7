@@ -14,8 +14,8 @@
             android:id="@+id/action_homeFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
+            android:id="@+id/action_homeFragment_to_kinoprogram2"
+            app:destination="@id/kinoprogram" />
     </fragment>
     <activity
         android:id="@+id/resultFragment"
@@ -27,5 +27,15 @@
         android:id="@+id/settingsFragment"
         android:name="no.larsgh.alpha7.SettingsActivity.SettingsFragment"
         android:label="SettingsFragment" />
+    <activity
+        android:id="@+id/tabbedActivity"
+        android:name="no.larsgh.alpha7.TabbedActivity"
+        android:label="tabbed_activity"
+        tools:layout="@layout/tabbed_activity" />
+    <fragment
+        android:id="@+id/kinoprogram"
+        android:name="no.larsgh.alpha7.Kinoprogram"
+        android:label="fragmen_kinoprogram"
+        tools:layout="@layout/fragmen_kinoprogram" />
 
 </navigation>
