@@ -6,13 +6,18 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.google.android.libraries.places.api.Places
+import com.google.android.libraries.places.api.net.PlacesClient
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var googlemapsClient: PlacesClient
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.toolbar))
+        initPlaces()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -34,5 +39,10 @@ class MainActivity : AppCompatActivity() {
             R.id.action_fkpk -> true
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    private fun initPlaces() {
+        Places.initialize(this, getString(R.string.googlemaps_api))
+        googlemapsClient = Places.createClient(this)
     }
 }

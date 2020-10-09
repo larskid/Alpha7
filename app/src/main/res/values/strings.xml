@@ -51,4 +51,7 @@
     <string name="cb_sub_nor">Norsk</string>
     <string name="cb_sub_ny">Nynorsk</string>
     <string name="button_ok">Bekreft</string>
+
+    <!-- Google API (Maps, Routes, Places) -->
+    <string name="googlemaps_api">AIzaSyA-1ijfy1Q9w3-06FD-avUzGjsbVTd7GGU</string>
 </resources>

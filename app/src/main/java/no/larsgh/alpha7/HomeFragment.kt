@@ -6,12 +6,21 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
+import com.google.android.gms.common.api.Status
+import com.google.android.libraries.places.api.model.Place
+import com.google.android.libraries.places.api.model.TypeFilter
+import com.google.android.libraries.places.widget.AutocompleteSupportFragment
+import com.google.android.libraries.places.widget.listener.PlaceSelectionListener
+import java.util.*
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
 class HomeFragment : Fragment() {
+
+    var placeFields = Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.ADDRESS)
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
@@ -30,6 +39,18 @@ class HomeFragment : Fragment() {
         view.findViewById<Button>(R.id.search_button).setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_resultFragment)
         }
+        val autocompleteFragment = childFragmentManager.findFragmentById(R.id.searchView) as AutocompleteSupportFragment
+        autocompleteFragment.setPlaceFields(placeFields)
+        autocompleteFragment.setTypeFilter(TypeFilter.ESTABLISHMENT)
+        autocompleteFragment.setCountry("NO")
+        autocompleteFragment.setOnPlaceSelectedListener(object: PlaceSelectionListener {
+            override fun onPlaceSelected(p0: Place) {
+                findNavController().navigate(R.id.action_homeFragment_to_resultFragment)
+            }
+            override fun onError(p0: Status) {
+                Toast.makeText(activity, ""+p0.statusMessage, Toast.LENGTH_SHORT).show()
+            }
 
+        })
     }
 }
