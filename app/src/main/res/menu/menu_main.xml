@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="no.larsgh.alpha7.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tema"
+        android:orderInCategory="100"
+        android:title="@string/menu_them"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bks"
+        android:orderInCategory="100"
+        android:title="@string/menu_bks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_fkpk"
+        android:orderInCategory="100"
+        android:title="@string/menu_fkpk"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Alpha4</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello world</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="s_k_button_text">Søk</string>
+    <string name="bgp_button">Bruk gjelende plasering</string>
+    <string name="home_title">Seenematic</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_button">Back</string>
+    <string name="kino_title">Title</string>
+    <string name="kino_distance">"Avstand: "</string>
+    <string name="menu_settings">Innstillinger</string>
+    <string name="menu_them">Tema</string>
+    <string name="menu_bks">Besøk kinoens side</string>
+    <string name="menu_fkpk">Finn kino på kart</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="setting_distance">Avstand</string>
+    <string name="setting_resultatgrense">Resultat Grense</string>
+    <string name="setting_prisgrense">Pris grense</string>
+    <string name="setting_language">Språk</string>
+    <string name="setting_sub">Undertitel</string>
+    <string name="cb_dub_eng">Engelsk</string>
+    <string name="cb_dub_nor">Norsk</string>
+    <string name="cb_dub_ny">Nynorsk</string>
+    <string name="cb_sub_for">Fremmed</string>
+    <string name="cb_sub_nor">Norsk</string>
+    <string name="cb_sub_ny">Nynorsk</string>
+    <string name="button_ok">Bekreft</string>
+</resources>
