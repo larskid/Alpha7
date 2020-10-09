@@ -11,10 +11,8 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.common.api.Status
 import com.google.android.libraries.places.api.model.Place
-import com.google.android.libraries.places.api.model.TypeFilter
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment
 import com.google.android.libraries.places.widget.listener.PlaceSelectionListener
-import kotlinx.coroutines.Dispatchers.Main
 import java.util.*
 
 /**
@@ -38,9 +36,7 @@ class HomeFragment : Fragment() {
         view.findViewById<Button>(R.id.bgp_button).setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_resultFragment)
         }
-        view.findViewById<Button>(R.id.search_button).setOnClickListener {
-            findNavController().navigate(R.id.action_homeFragment_to_resultFragment)
-        }
+
         val autocompleteFragment = childFragmentManager.findFragmentById(R.id.searchView) as AutocompleteSupportFragment
         autocompleteFragment.setPlaceFields(placeFields)
         autocompleteFragment.setCountry("NO")

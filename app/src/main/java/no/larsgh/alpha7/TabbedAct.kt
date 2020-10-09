@@ -47,7 +47,7 @@ class TabbedAct : AppCompatActivity() {
                 }
 
             }
-            // Change color of the icons
+
             tab.icon?.colorFilter =
                 BlendModeColorFilterCompat.createBlendModeColorFilterCompat(
                     Color.WHITE,

@@ -1,5 +1,7 @@
 package no.larsgh.alpha7
 
+import android.app.PendingIntent.getActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
@@ -22,12 +24,10 @@ class ResultFragment : AppCompatActivity() {
         mListView.adapter = adapter
 
         mListView.setOnItemClickListener { parent, view, position, id ->
-            for ( position in 0..position) {
-                Toast.makeText(this@ResultFragment, "Kino " + (position+1) + " " + "clicked...", Toast.LENGTH_SHORT).show()
-                //view.findViewById<ListView>(R.id.position).setOnClickListener {
-                //    view.findNavController().navigate(R.id.action_resultFragment_to_tabsActivity)
-                //}
-            }
+            for ( position in 0..position) { }
+            Toast.makeText(this@ResultFragment, "Kino " + (position+1) + " " + "clicked...", Toast.LENGTH_SHORT).show()
+            var intent = Intent(this, TabbedAct::class.java)
+            startActivity(intent)
         }
     }
 }
