@@ -33,12 +33,20 @@ class HomeFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
+    // Connect button(s) to the propper pages
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        // Button to "Bruk gjelende plassering
         view.findViewById<Button>(R.id.bgp_button).setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_resultFragment)
         }
+
+        //Button to "Vis populære filmer"
+        view.findViewById<Button>(R.id.vpf_button).setOnClickListener {
+            var intent1 = Intent(activity, PopulereFilmer::class.java)
+            activity?.startActivity(intent1)
+        }
+
 
         val autocompleteFragment = childFragmentManager.findFragmentById(R.id.googleAutocomplete) as AutocompleteSupportFragment
         autocompleteFragment.setPlaceFields(placeFields)
@@ -46,8 +54,8 @@ class HomeFragment : Fragment() {
         autocompleteFragment.view?.setBackgroundColor(Color.WHITE)
         autocompleteFragment.setOnPlaceSelectedListener(object: PlaceSelectionListener {
             override fun onPlaceSelected(p0: Place) {
-                var intent = Intent(activity, TabbedAct::class.java)
-                startActivity(intent)
+                var intent2 = Intent(activity, TabbedAct::class.java)
+                startActivity(intent2)
             }
             override fun onError(p0: Status) {
                 Toast.makeText(activity, ""+p0.statusMessage, Toast.LENGTH_SHORT).show()

@@ -9,6 +9,8 @@ import android.view.Menu
 import android.view.MenuItem
 import com.google.android.libraries.places.api.Places
 import com.google.android.libraries.places.api.net.PlacesClient
+import com.google.android.libraries.places.internal.hl
+import kotlinx.android.synthetic.main.fragment_home.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,7 +41,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
-            R.id.action_tema -> true
+            R.id.action_tema -> {
+                var intent = Intent(this, TemaActivity::class.java)
+                startActivity(intent)
+                true
+            }
             R.id.action_bks -> true
             R.id.action_fkpk -> true
             else -> super.onOptionsItemSelected(item)

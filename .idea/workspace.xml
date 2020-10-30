@@ -82,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-1586993628">
@@ -181,10 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602276131200" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602105909862">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604070111000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602105909862" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604070111000" />
     <state x="640" y="179" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1602264794026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -197,44 +197,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="361" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602266756747" />
-    <state x="677" y="204" key="AndroidCreateResourceFileDialog" timestamp="1602268745392">
+    <state x="100" y="278" key="AndroidCreateResourceDirectoryDialog" timestamp="1604074643999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="204" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602101752414" />
+    <state x="100" y="278" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604074643999" />
+    <state x="207" y="467" key="AndroidCreateResourceFileDialog" timestamp="1604084372629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1243" y="204" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604069500596" />
+    <state x="207" y="467" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604084372629" />
     <state x="677" y="204" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602268745392" />
-    <state x="-1102" y="333" key="AndroidCreateXmlResourceDialog" timestamp="1602178565453">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="818" y="333" key="AndroidCreateXmlResourceDialog" timestamp="1604087228016">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1102" y="333" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602178565453" />
-    <state x="818" y="333" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602084194229" />
+    <state x="818" y="333" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604087228016" />
     <state x="526" y="255" key="FileChooserDialogImpl" timestamp="1604061011703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="526" y="255" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604061011703" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1602273449537">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1604088613886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602106544841" />
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604068805954" />
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604088613886" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602273449537" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1602273449536">
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1604088613886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602106544841" />
+    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604068805954" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604088613886" />
     <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602273449536" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1602273449536">
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1604088613886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602106544841" />
+    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604068805954" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604088613886" />
     <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602273449536" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1602273449536">
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1604088613886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602106544841" />
+    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604068805954" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604088613886" />
     <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1160/1920.49.1280.1024@0.0.1920.1040" timestamp="1602273449536" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1602250127795">
+    <state x="451" y="97" key="SettingsEditor" timestamp="1604061844142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602250127795" />
+    <state x="451" y="97" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604061844142" />
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1602007895387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

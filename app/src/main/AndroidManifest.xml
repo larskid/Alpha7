@@ -15,7 +15,8 @@
         <activity
             android:name=".TabbedAct"
             android:label="@string/title_activity_tabbed"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity
             android:name=".SettingsActivity"
             android:label="Settings" />
@@ -32,6 +33,14 @@
         <activity
             android:name=".ResultFragment"
             android:label="@string/app_name" />
+        <activity
+            android:name=".PopulereFilmer"
+            android:label="Populære filmer">
+        </activity>
+        <activity
+            android:name=".TemaActivity"
+            android:label="Populære filmer">
+        </activity>
     </application>
 
 </manifest>

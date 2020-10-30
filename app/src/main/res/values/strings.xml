@@ -11,6 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="s_k_button_text">Søk</string>
     <string name="bgp_button">Bruk gjelende plasering</string>
+    <string name="vpf_button">Vis populære filmer</string>
     <string name="home_title">Seenematic</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="back_button">Back</string>
@@ -24,6 +25,10 @@
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="switch_1">Bytt til mørkt tema</string>
+    <string name="tema_text_2">Bytt primær farge</string>
+    <string name="tema_text_3">Bytt sekundær farge</string>
+
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
@@ -55,4 +60,6 @@
     <!-- Google API (Maps, Routes, Places) -->
     <string name="googlemaps_api">AIzaSyA-1ijfy1Q9w3-06FD-avUzGjsbVTd7GGU</string>
     <string name="title_activity_tabbed">TabbedAct</string>
+    <string name="tema_button">Grønn</string>
+    <string name="tema_button_2">Gul</string>
 </resources>
